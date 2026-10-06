@@ -36,13 +36,14 @@ export const premios = [
 ]
 
 export const sectores = [
+  { nombre: 'E-Commerce', icono: 'material-symbols:shopping-cart-outline-rounded' },
+  { nombre: 'Agroindustria', icono: 'material-symbols:agriculture-outline-rounded' },
+  { nombre: 'Real Estate', icono: 'material-symbols:apartment-rounded' },
+  { nombre: 'Turismo', icono: 'material-symbols:travel-explore-rounded' },
   { nombre: 'Salud', icono: 'material-symbols:medical-services-outline-rounded' },
   { nombre: 'Educación', icono: 'material-symbols:school-outline-rounded' },
-  { nombre: 'Real Estate', icono: 'material-symbols:apartment-rounded' },
-  { nombre: 'Agroindustria', icono: 'material-symbols:agriculture-outline-rounded' },
   { nombre: 'Fitness', icono: 'material-symbols:fitness-center-rounded' },
   { nombre: 'Fintech', icono: 'material-symbols:account-balance-outline-rounded' },
   { nombre: 'Servicios profesionales', icono: 'material-symbols:business-center-outline-rounded' },
-  { nombre: 'Servicio al cliente', icono: 'material-symbols:support-agent-rounded' },
-  { nombre: 'E-Commerce', icono: 'material-symbols:shopping-cart-outline-rounded' }
+  { nombre: 'Servicio al cliente', icono: 'material-symbols:support-agent-rounded' }
 ]

@@ -168,7 +168,7 @@ export const rubros = {
         icon: 'material-symbols:cards-stack-outline-rounded',
         titulo: '¿La documentación es inmanejable?',
         texto:
-          'Implementamos CRMs diseñados para el ciclo inmobiliario: seguimiento de prospectos, estados de negociación y pipeline completo. Ninguna oportunidad se enfría.',
+          'Centralizamos planos, contratos, escrituras y permisos en un repositorio ordenado por proyecto y unidad, con versiones y vencimientos. Todo se encuentra en segundos.',
       },
       {
         icon: 'material-symbols:eye-tracking-outline-rounded',
@@ -236,7 +236,7 @@ export const rubros = {
       },
       {
         icon: 'material-symbols:build-outline-rounded',
-        titulo: '¿Te enteras de que la sembradora necesitaba service cuando se rompió?',
+        titulo: '¿Te enteras que la sembradora necesitaba service cuando se rompió?',
         texto:
           'Armamos control de maquinaria por horas de uso, con alertas de mantenimiento preventivo por equipo. Las máquinas paran cuando tú lo decides, no en plena campaña.',
       },
@@ -290,6 +290,70 @@ export const rubros = {
       },
     ],
   },
+  turismo: {
+    h1: 'Turismo',
+    nombre: 'turismo',
+    subtitulo: 'Tus clientes viajan. Que la gestión no te haga perder el viaje.',
+    imagenHero: '/img/transformacion/rubros/hero_turismo.webp',
+    parrafo:
+      'Trabajamos con <span class="text-amarillo font-medium">agencias de viajes</span>, <span class="text-amarillo font-medium">operadores mayoristas</span>, <span class="text-amarillo font-medium">hoteles</span>, <span class="text-amarillo font-medium">alojamientos</span> y <span class="text-amarillo font-medium">empresas de excursiones</span>. Si las consultas llegan a toda hora, las tarifas cambian todos los días y cada reserva se arma a mano entre mails, planillas y WhatsApp, te ayudamos a que la operación funcione sola: <strong>de la primera consulta al regreso del viajero.</strong>',
+    problemas: [
+      {
+        icon: 'material-symbols:chat-outline-rounded',
+        titulo: '¿Las consultas llegan de noche y se responden recién al día siguiente?',
+        texto:
+          'Implementamos un asistente con IA que responde por WhatsApp y web a cualquier hora: disponibilidad, precios y condiciones. El viajero recibe respuesta antes de irse con otra agencia.',
+      },
+      {
+        icon: 'material-symbols:request-quote-outline-rounded',
+        titulo: '¿Armar una cotización te lleva una hora entre proveedores y planillas?',
+        texto:
+          'Conectamos tarifas, cupos y proveedores en un solo sistema que arma la propuesta con aéreos, alojamiento y excursiones en minutos. Tu equipo sólo la revisa y la envía.',
+      },
+      {
+        icon: 'material-symbols:menu-book-outline-rounded',
+        titulo: '¿Actualizar el catálogo de paquetes es copiar y pegar PDFs?',
+        texto:
+          'La IA lee los tarifarios y folletos de cada operador y carga los paquetes con precios, fechas y condiciones. El catálogo queda al día sin tipear nada.',
+      },
+      {
+        icon: 'material-symbols:event-busy-outline-rounded',
+        titulo: '¿Te enteras que faltaba un voucher cuando el pasajero ya está en el aeropuerto?',
+        texto:
+          'Automatizamos el seguimiento de cada reserva: pagos, documentación y vouchers con alertas de vencimiento. Nada queda pendiente cuando llega el día del viaje.',
+      },
+    ],
+    pasos: {
+      subtitulo:
+        'Un agente que atiende la consulta, arma la cotización y cierra la reserva. <strong>Sin que nadie de tu equipo tenga que estar conectado.</strong>',
+      items: [
+        { texto: 'El viajero consulta por WhatsApp', imagen: '/img/transformacion/rubros/turismo/1-el-viajero-consulta-por-whatsapp.webp' },
+        { texto: 'El agente arma la cotización con disponibilidad real', imagen: '/img/transformacion/rubros/turismo/2-el-agente-arma-la-cotizacion.webp' },
+        { texto: 'La reserva se confirma con el pago de la seña', imagen: '/img/transformacion/rubros/turismo/3-la-reserva-se-confirma-con-la-sena.webp' },
+        { texto: 'Vouchers y recordatorios llegan solos', imagen: '/img/transformacion/rubros/turismo/4-el-viaje-se-acompana-solo.webp' },
+      ],
+    },
+    automatizaciones: [
+      {
+        icon: 'material-symbols:price-change-outline-rounded',
+        titulo: 'Monitor de tarifas y disponibilidad',
+        texto:
+          'Revisa precios de proveedores y competidores todos los días y avisa cuando conviene ajustar un paquete o lanzar una promo.',
+      },
+      {
+        icon: 'material-symbols:map-outline-rounded',
+        titulo: 'Generador de itinerarios personalizados',
+        texto:
+          'El viajero cuenta qué le gusta, cuántos días tiene y su presupuesto; el sistema arma un itinerario día por día listo para enviar.',
+      },
+      {
+        icon: 'material-symbols:headphones-outline-rounded',
+        titulo: 'Audioguías de tus recorridos',
+        texto:
+          'Creamos audioguías en formato podcast para cada recorrido, en varios idiomas. El viajero las escucha desde el celular y vive la experiencia con la voz de tu marca.',
+      },
+    ],
+  },
   fitness: {
     h1: 'Fitness y Deportes',
     nombre: 'fitness',
@@ -318,7 +382,7 @@ export const rubros = {
       },
       {
         icon: 'material-symbols:autorenew-rounded',
-        titulo: '¿Te enteras de que un plan venció recién cuando el socio dejó de venir?',
+        titulo: '¿Te enteras que un plan venció recién cuando el socio dejó de venir?',
         texto:
           'Implementamos renovaciones automáticas con aviso previo y link de pago antes del vencimiento. El plan se renueva antes de cortarse.',
       },

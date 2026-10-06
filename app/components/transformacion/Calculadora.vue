@@ -1,10 +1,13 @@
 <template>
   <div class="w-full flex flex-col bg-negro border border-blanco/33 rounded-2xl lg:rounded-3xl overflow-hidden">
-    <div class="flex items-center gap-2 border-b border-blanco/20 px-4 iph:px-5 md:px-6 lg:px-8 py-4">
-      <span v-for="n in 3" :key="n" class="h-1 flex-1 rounded-full overflow-hidden bg-blanco/18">
-        <span class="block h-full bg-amarillo origin-left transition-transform duration-500 ease-out"
-          :style="{ transform: `scaleX(${paso >= n ? 1 : 0})` }" />
-      </span>
+    <div class="flex flex-col gap-4 border-b border-blanco/20 px-4 iph:px-5 md:px-6 lg:px-8 py-4 lg:py-5">
+      <UiHeadingH3 class="text-amarillo text-base">Conoce el costo mensual de no automatizar</UiHeadingH3>
+      <div class="flex items-center gap-2">
+        <span v-for="n in 3" :key="n" class="h-1 flex-1 rounded-full overflow-hidden bg-blanco/18">
+          <span class="block h-full bg-amarillo origin-left transition-transform duration-500 ease-out"
+            :style="{ transform: `scaleX(${paso >= n ? 1 : 0})` }" />
+        </span>
+      </div>
     </div>
 
     <div class="md:min-h-112 lg:min-h-132 flex flex-col px-4 iph:px-5 md:px-6 lg:px-8 py-6 lg:py-8">

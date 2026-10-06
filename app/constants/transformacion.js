@@ -26,15 +26,16 @@ export const beneficios = [
 ]
 
 export const industrias = [
+  { icon: 'material-symbols:storefront-outline-rounded', label: 'E-Commerce', slug: 'e-commerce', image: '/img/transformacion/rubros/hero_ecommerce.webp' },
+  { icon: 'material-symbols:wheat-outline-rounded', label: 'Agroindustria', slug: 'agroindustria', image: '/img/transformacion/rubros/hero_agroindustria.webp' },
+  { icon: 'material-symbols:domain-rounded', label: 'Real Estate', slug: 'real-estate', image: '/img/transformacion/rubros/hero_real_state.webp' },
+  { icon: 'material-symbols:travel-explore-rounded', label: 'Turismo', slug: 'turismo', image: '/img/transformacion/rubros/hero_turismo.webp' },
   { icon: 'material-symbols:health-cross-outline-rounded', label: 'Salud', slug: 'salud', image: '/img/transformacion/rubros/hero_salud.webp' },
   { icon: 'material-symbols:school-outline-rounded', label: 'Educación', slug: 'educacion', image: '/img/transformacion/rubros/hero_educacion.webp' },
-  { icon: 'material-symbols:domain-rounded', label: 'Real Estate', slug: 'real-estate', image: '/img/transformacion/rubros/hero_real_state.webp' },
-  { icon: 'material-symbols:wheat-outline-rounded', label: 'Agroindustria', slug: 'agroindustria', image: '/img/transformacion/rubros/hero_agroindustria.webp' },
   { icon: 'material-symbols:cardiology-outline-rounded', label: 'Fitness', slug: 'fitness', image: '/img/transformacion/rubros/hero_fitness.webp' },
   { icon: 'material-symbols:account-balance-outline-rounded', label: 'Fintech', slug: 'fintech', image: '/img/transformacion/rubros/hero_servicio_financieros.webp' },
   { icon: 'material-symbols:work-outline', label: 'Servicios profesionales', slug: 'servicios-profesionales', image: '/img/transformacion/rubros/hero_servicio_profesionales.webp' },
-  { icon: 'material-symbols:headset-mic-outline-rounded', label: 'Servicio al cliente', slug: 'servicio-al-cliente', image: '/img/transformacion/rubros/hero_servicio_al_cliente.webp' },
-  { icon: 'material-symbols:storefront-outline-rounded', label: 'E-Commerce', slug: 'e-commerce', image: '/img/transformacion/rubros/hero_ecommerce.webp' }
+  { icon: 'material-symbols:headset-mic-outline-rounded', label: 'Servicio al cliente', slug: 'servicio-al-cliente', image: '/img/transformacion/rubros/hero_servicio_al_cliente.webp' }
 ]
 
 export const opiniones = [
