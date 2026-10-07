@@ -14,7 +14,7 @@ paths:
 
 Los 4 videos pesados (hero home, hero agencia, hero eventos y showreel) se sirven desde Vercel Blob, con URLs escritas a mano en `components/home/Hero.vue`, `constants/agencia.js` y `constants/eventos.js`. `hero-transformacion.mp4` es el único que va en `public/video/`.
 
-**Migración pendiente (2026-10-06)**: siguen apuntando al store `q7epkagsjeo0w9l9`, que está en la cuenta de Motix, y su tráfico se lo cobran a Motix aunque el repo y el proyecto de Vercel ya se transfirieron. Lara crea el Blob en la cuenta de Benteveo y sube los videos de `~/Desktop/Benteveo-videos` (los heros de agencia y eventos ya van recomprimidos a 720p con CRF 28; los otros dos son los originales). Cuando mande las URLs: reemplazarlas en esos 3 archivos, deployar, verificar que los videos carguen y recién ahí borrar el store viejo.
+**Store**: `0ptwbwqhgami6hcq`, en la cuenta de Benteveo (desde 2026-10-07; antes estaban en `q7epkagsjeo0w9l9`, de Motix). Lo comparte con WebBenteveoOK. Los 4 archivos están en la raíz del store, sin carpetas. Por ahora son los originales: los heros de agencia y eventos a 720p (CRF 28) que preparó Lio todavía no se subieron. Si se suben con el mismo nombre, la URL no cambia. El store viejo se borra recién cuando los videos carguen en producción.
 
 El hero de la home lleva `poster="/img/posters/hero-home.webp"` (el primer frame del video): sin poster, el fondo quedaba vacío mientras cargaba el video y eso empeoraba el LCP.
 

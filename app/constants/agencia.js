@@ -39,7 +39,7 @@ export const servicios = [
 ]
 
 export const heroAgencia = {
-  video: 'https://q7epkagsjeo0w9l9.public.blob.vercel-storage.com/video/hero-agencia-creativa.mp4',
+  video: 'https://0ptwbwqhgami6hcq.public.blob.vercel-storage.com/hero-agencia-creativa.mp4',
   poster: '/img/posters/hero-agencia-creativa.jpg',
   title: 'Tu marca tiene algo para decir.',
   accent: 'Nosotros hacemos que el mundo la escuche.',

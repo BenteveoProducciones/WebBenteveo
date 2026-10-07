@@ -32,13 +32,13 @@ export const necesidades = [
 ]
 
 export const heroEventos = {
-  video: 'https://q7epkagsjeo0w9l9.public.blob.vercel-storage.com/video/eventos/hero-eventos.mp4',
+  video: 'https://0ptwbwqhgami6hcq.public.blob.vercel-storage.com/hero-eventos.mp4',
   poster: '/img/posters/hero-eventos.jpg',
   eyebrow: 'Lanzamientos, convenciones y activaciones de marca',
   title: 'Experiencias que nacen desde la estrategia de marca'
 }
 
 export const showreelEventos = {
-  video: 'https://q7epkagsjeo0w9l9.public.blob.vercel-storage.com/video/eventos/show-reel-eventos.mp4',
+  video: 'https://0ptwbwqhgami6hcq.public.blob.vercel-storage.com/show-reel-eventos.mp4',
   poster: '/img/posters/show-reel-eventos.jpg'
 }
